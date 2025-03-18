@@ -3,7 +3,7 @@ name: Deploy Java Application to EC2 tomcat
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
